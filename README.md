@@ -10,8 +10,8 @@ Completed Assessment Areas
 8) Create Stored procedure for 6.E to get required data from SQL -Done
 
 *****For More Information******
-A) Used technologies - C#, .NET.Core, ADO.NET
-B) Added Best Practices
+1) Used technologies - C#, .NET.Core, ADO.NET
+2) Added Best Practices
 •	Design Patterns - Repository Design Pattern
 •	Exception Handling - using Try - Catch
 •	REST API Architecture
