@@ -12,13 +12,13 @@ Completed Assessment Areas
 *****For More Information******
 1) Used technologies - C#, .NET.Core, ADO.NET
 2) Added Best Practices
-   1)Design Patterns - Repository Design Pattern
-   2)Exception Handling - using Try - Catch
-   3)REST API Architecture
-   4)Using Store Procedures to reduce code inside the project file and for more readability.
-   5)Use good naming for Methods, Interfaces and Implementations (Repositories)
-   6)Add Comments for Web API methods
-   7)Adding response messages
+   1) Design Patterns - Repository Design Pattern
+   2) Exception Handling - using Try - Catch
+   3) REST API Architecture
+   4) Using Store Procedures to reduce code inside the project file and for more readability.
+   5) Use good naming for Methods, Interfaces and Implementations (Repositories)
+   6) Add Comments for Web API methods
+   7) Adding response messages
       * Handling the Customer cannot delete function, if that customer has any orders.
       * Handling the Customer cannot update if customer id not exists.
 3) All Store Procedures are including with Database. Also add as a SQL file - All_Store_Procedures sql file.
