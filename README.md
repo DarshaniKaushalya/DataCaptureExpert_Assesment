@@ -12,17 +12,17 @@ Completed Assessment Areas
 *****For More Information******
 1) Used technologies - C#, .NET.Core, ADO.NET
 2) Added Best Practices
-•	Design Patterns - Repository Design Pattern
-•	Exception Handling - using Try - Catch
-•	REST API Architecture
-•	Using Store Procedures to reduce code inside the project file and for more readability.
-•	Use good naming for Methods, Interfaces and Implementations (Repositories)
-•	Add Comments for Web API methods
-•	Adding response messages
-	Handling the Customer cannot delete function, if that customer has any orders.
-	Handling the Customer cannot update if customer id not exists.
+   1)Design Patterns - Repository Design Pattern
+   2)Exception Handling - using Try - Catch
+   3)REST API Architecture
+   4)Using Store Procedures to reduce code inside the project file and for more readability.
+   5)Use good naming for Methods, Interfaces and Implementations (Repositories)
+   6)Add Comments for Web API methods
+   7)Adding response messages
+      * Handling the Customer cannot delete function, if that customer has any orders.
+      *Handling the Customer cannot update if customer id not exists.
 3) All Store Procedures are including with Database. Also add as a SQL file - All_Store_Procedures sql file.
 4) Required Store Procedure Query can access via sp_GetActiveOrders sql file.
 5) Extra: 
-•	Create API endpoint for "CreateOrder/{UserId:Guid}"
+     *Create API endpoint for "CreateOrder/{UserId:Guid}"
 5) Project, Database, Postman Collection are added to Gi Repository.
