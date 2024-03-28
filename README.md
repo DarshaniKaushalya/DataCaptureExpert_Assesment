@@ -21,8 +21,8 @@ Completed Assessment Areas
 •	Adding response messages
 	Handling the Customer cannot delete function, if that customer has any orders.
 	Handling the Customer cannot update if customer id not exists.
-C) All Store Procedures are including with Database. Also add as a SQL file - All_Store_Procedures sql file.
-D) Required Store Procedure Query can access via sp_GetActiveOrders sql file.
-E) Extra: 
+3) All Store Procedures are including with Database. Also add as a SQL file - All_Store_Procedures sql file.
+4) Required Store Procedure Query can access via sp_GetActiveOrders sql file.
+5) Extra: 
 •	Create API endpoint for "CreateOrder/{UserId:Guid}"
-F) Project, Database, Postman Collection are added to Gi Repository.
+5) Project, Database, Postman Collection are added to Gi Repository.
