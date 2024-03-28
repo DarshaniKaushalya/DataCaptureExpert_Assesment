@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "71ab9e87-dd25-4606-9d10-a33917fd222d",
+		"name": "ECommerseAPICollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12608139"
+	},
+	"item": [
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "CreateCustomer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"Janu\",\r\n  \"email\": \"janu@gmail.com\",\r\n  \"firstName\": \"Janudri\",\r\n  \"lastName\": \"Kaushalya\",\r\n  \"createdOn\": \"2024-03-28T05:31:48.319Z\",\r\n  \"isActive\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5032/CreateCustomer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"CreateCustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCustomer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/GetAllCustomer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"GetAllCustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCustomer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userId\": \"2E43A35A-CB37-4FBF-8117-A8B107A53466\",\r\n  \"username\": \"Kasun\",\r\n  \"email\": \"kau@gmail.com\",\r\n  \"firstName\": \"Kasun\",\r\n  \"lastName\": \"Diwa\",\r\n  \"createdOn\": \"2024-03-28T05:40:44.714Z\",\r\n  \"isActive\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5032/UpdateCustomer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"UpdateCustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCustomer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:5032/DeleteCustomer/3FA85F64-5717-4562-B3FC-2C963F66AFA9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"DeleteCustomer",
+								"3FA85F64-5717-4562-B3FC-2C963F66AFA9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order",
+			"item": [
+				{
+					"name": "CreateOrder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productId\": \"17456407-C8DD-4EE2-A604-ECA72D443A9B\",\r\n  \"orderStatus\": 1,\r\n  \"orderType\": 2,\r\n   \"orderBy\": \"3FA85F64-5717-4562-B3FC-2C963F66AFA9\",\r\n  \"orderedOn\": \"2024-03-28T04:10:14.413Z\",\r\n  \"shippedOn\": \"2024-03-28T04:10:14.413Z\",\r\n  \"isActive\": true,\r\n  \"product\": {\r\n    \"productId\": \"17456407-C8DD-4EE2-A604-ECA72D443A9B\",\r\n    \"productName\": \"Saree\",\r\n    \"unitPrice\": 5000,\r\n    \"supplierId\": \"40887CBA-AA84-4E8D-AC4B-155EEF7F84B2\",\r\n    \"createdOn\": \"2024-03-28T04:10:14.413Z\",\r\n    \"isActive\": true,\r\n    \"supplier\": {\r\n      \"supplierId\": \"40887CBA-AA84-4E8D-AC4B-155EEF7F84B2\",\r\n      \"supplierName\": \"Darshani\",\r\n      \"createdOn\": \"2024-03-28T04:10:14.413Z\",\r\n      \"isActive\": true\r\n    }\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5032/CreateOrder/3FA85F64-5717-4562-B3FC-2C963F66AFA9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"CreateOrder",
+								"3FA85F64-5717-4562-B3FC-2C963F66AFA9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetActiveOrders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/GetActiveOrders/2E43A35A-CB37-4FBF-8117-A8B107A53466",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"GetActiveOrders",
+								"2E43A35A-CB37-4FBF-8117-A8B107A53466"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
