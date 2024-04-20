@@ -1,5 +1,5 @@
 *********Read Me File*********
-Completed Assessment Areas
+Project Areas
 1) Complete This Practical Using .NET Core with ADO.NET - Done
 2) Create SQL Table Named Customer with as mentioned fields - Done
 3) Create SQL Table Named Order with as mentioned fields -Done
